@@ -1,0 +1,6 @@
+{
+  "name": "Sharan Habits",
+  "description": "Tactile, focused habit tracker with time-ordered schedules, streak tracking, interactive calendars, progress badges, and smart notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

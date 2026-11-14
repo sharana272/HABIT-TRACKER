@@ -1,0 +1,228 @@
+---
+name: Rulz Habit
+colors:
+  surface: '#f9f9ff'
+  surface-dim: '#d3daef'
+  surface-bright: '#f9f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f1f3ff'
+  surface-container: '#e9edff'
+  surface-container-high: '#e1e8fd'
+  surface-container-highest: '#dce2f7'
+  on-surface: '#141b2b'
+  on-surface-variant: '#414943'
+  inverse-surface: '#293040'
+  inverse-on-surface: '#edf0ff'
+  outline: '#717973'
+  outline-variant: '#c1c8c1'
+  surface-tint: '#3f6652'
+  primary: '#002213'
+  on-primary: '#ffffff'
+  primary-container: '#0f3826'
+  on-primary-container: '#79a28a'
+  inverse-primary: '#a5d0b7'
+  secondary: '#2c694e'
+  on-secondary: '#ffffff'
+  secondary-container: '#aeeecb'
+  on-secondary-container: '#316e52'
+  tertiary: '#002114'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#143727'
+  on-tertiary-container: '#7ca18c'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#c1edd2'
+  primary-fixed-dim: '#a5d0b7'
+  on-primary-fixed: '#002113'
+  on-primary-fixed-variant: '#274e3b'
+  secondary-fixed: '#b1f0ce'
+  secondary-fixed-dim: '#95d4b3'
+  on-secondary-fixed: '#002114'
+  on-secondary-fixed-variant: '#0e5138'
+  tertiary-fixed: '#c5ecd4'
+  tertiary-fixed-dim: '#a9cfb9'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#2b4e3d'
+  background: '#f9f9ff'
+  on-background: '#141b2b'
+  surface-variant: '#dce2f7'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.75rem
+  margin: 1.5rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system embodies mindful discipline, purposeful restraint, and psychological calm. Tailored for high-performing individuals striving for personal consistency without cognitive overload, the interface prioritizes tranquil clarity over gamified anxiety. 
+
+The aesthetic is grounded in **Refined Organic Minimalism**: combining pristine, airy negative space with deep botanical greens and soft earthen tones. The emotional resonance is deliberate, serene, and grounding—mirroring the tactile calm of premium stationery while delivering the effortless fluid responsiveness of modern native application design. Micro-interactions are subtle, purposeful, and quiet, reinforcing focus rather than demanding attention.
+
+## Colors
+
+The palette derives its strength from nature's quiet depths, balancing deep organic greens with serene sage backgrounds and warm off-white canvases.
+
+- **Primary (`#0F3826`)**: Deep forest emerald. Anchors critical actions, selected states, and completion milestones.
+- **Secondary (`#2D6A4F`)**: Mid-tone foliage green. Used for interactive focus states, secondary buttons, and active progress fills.
+- **Tertiary (`#82A792`)**: Muted sage green. Drives non-urgent tags, resting track rings, and supportive iconography.
+- **Neutral (`#111827`)**: Crisp deep slate. Provides maximum contrast for primary typography without the harshness of pure black.
+
+### Functional Surfaces & Tonal Layers
+- **Canvas Base**: `#F9F9FB` (Soft warm off-white)
+- **Card Surface**: `#FFFFFF` (Pristine clean white)
+- **Subtle Surface / Sage Tint**: `#E8F0EB` (Soft sage highlight and selected row container)
+- **Muted Sage Border**: `#D1E5D9` (Active or highlighted boundary outlines)
+- **Subtle Structural Border**: `#E5E7EB` (Whisper-soft card and list borders)
+- **Text Secondary / Muted**: `#4B5563` (Subheadings, supporting metadata)
+- **Text Subtle**: `#9CA3AF` (Placeholders, inactive dates)
+
+## Typography
+
+The type system blends the contemporary, geometric warmth of **Plus Jakarta Sans** for headers, metrics, and pill badges with the rhythmic neutrality of **Inter** for daily checklists, streaks, and narrative reflections. 
+
+- Use tight negative letter-spacing (`-0.01em` to `-0.03em`) on display headlines to achieve an editorial, grounded feel.
+- Set habit titles and numeric streaks in `headline-md` or `label-lg` with medium to semi-bold weights to guarantee instantaneous scanning at a glance.
+- Keep label tags and day-of-week abbreviations uppercase or title-case with slightly expanded tracking (`+0.02em` to `+0.04em`) for pristine legibility at small sizes.
+
+## Layout & Spacing
+
+The layout is built upon an 8pt base grid with an intentional mobile-first single-column structure that embraces breathable whitespace.
+
+- **Mobile Viewports (< 640px)**: 
+  - Standard edge canvas margin is `1.25rem` (`20px`), ensuring edge cards never crowd device borders.
+  - Cards and habit check-in rows span full grid width with internal padding governed strictly by `space-md` (`16px`) and `space-lg` (`24px`).
+  - Vertical stacking between habit categories defaults to `space-xl` (`32px`) to delineate morning, afternoon, and evening routines naturally.
+- **Tablet / Large Viewports (≥ 640px)**:
+  - Outer margins expand to `1.5rem` (`24px`), with a centered max-width container of `580px` for focused phone-like single-hand usage, or a 2-column layout (Left: Habit Timeline, Right: Analytics & Streaks) utilizing `1rem` gutters.
+
+## Elevation & Depth
+
+Visual hierarchy relies on crisp surface separation rather than heavy physical drops:
+
+- **Surface Tiers**: Base canvas sits on `#F9F9FB`. Primary cards sit directly above on `#FFFFFF`, framed with a featherlight hairline stroke of `#E5E7EB`.
+- **Ambient Shadow (Card Rest)**: An ethereal, whisper-soft shadow with an olive-neutral undertone:
+  `box-shadow: 0px 4px 20px -2px rgba(15, 56, 38, 0.03), 0px 2px 6px -1px rgba(0, 0, 0, 0.02)`.
+- **Interactive Lift (Habit Completion / Drag)**: 
+  `box-shadow: 0px 12px 28px -4px rgba(15, 56, 38, 0.08), 0px 4px 10px -2px rgba(15, 56, 38, 0.04)`.
+- **Glassmorphic Navigation**: Bottom navigation bars and floating progress headers utilize backdrop blur:
+  `background: rgba(249, 249, 251, 0.85); backdrop-filter: blur(16px); border-top: 1px solid rgba(229, 231, 235, 0.80)`.
+
+## Shapes
+
+The interface embraces organic curvature to feel gentle, humane, and welcoming:
+
+- **Cards & Habit Blocks**: Utilize extra-large curvature (`rounded-2xl` at `16px` to `rounded-3xl` at `24px`) to create individual, touchable modules.
+- **Pills & Status Tags**: Fully rounded (`9999px` / `rounded-full`) for habit categories, streaks, and day pills.
+- **Interactive Check Rings**: Perfect circles (`rounded-full`) that smoothly morph into deep forest check marks upon completion.
+- **Form Controls & Modals**: Bottom sheets feature `24px` top radiuses; input fields maintain a friendly `12px` to `16px` radius.
+
+## Components
+
+### Buttons
+- **Primary**: Solid `#0F3826` fill, `#FFFFFF` text, `rounded-full` height `48px` or `52px`. Hover/Active transitions smoothly to `#2D6A4F` with a slight scale down (`scale-98`).
+- **Secondary**: Tinted `#E8F0EB` fill, `#0F3826` text, no visible border, `rounded-full`.
+- **Ghost / Tertiary**: Transparent fill, `#4B5563` text, `#0F3826` on press.
+
+### Habit Cards & List Rows
+- Contained inside `#FFFFFF` cards with `rounded-2xl` (`16px`) and a delicate `1px solid #E5E7EB` border.
+- Layout: Left icon/emoji container inside a `40px` circular sage tint (`#E8F0EB`), habit title and target frequency in the center, and interactive progress ring or completion checkbox on the right.
+- Active completion state illuminates the card outline with `border-color: #D1E5D9` and a soft background wash of `#F4F8F5`.
+
+### Progress Rings & Streak Counters
+- **Progress Ring**: `36px` to `48px` SVG circle. Background track is `#E8F0EB` with `stroke-width: 3.5px`. Active fill animates smoothly with `#0F3826` (or `#2D6A4F`) with `stroke-linecap: round`.
+- **Streak Pill**: Compact capsule with `#E8F0EB` fill, `#0F3826` bold label, and a subtle leaf/flame accent icon.
+
+### Checkboxes & Action Triggers
+- Unchecked: `24px` circle with `2px solid #D1E5D9` border and transparent center.
+- Checked: Snappy scale-pop animation filling to `#0F3826` with a crisp, centered white check icon.
+
+### Chips & Pill Tags
+- Height: `28px` to `32px`, `rounded-full`.
+- Neutral state: Background `#FFFFFF`, border `1px solid #E5E7EB`, text `#4B5563`.
+- Selected/Active state: Background `#0F3826`, text `#FFFFFF`, border `transparent`.
+
+### Inputs & Date Scroller
+- **Inputs**: Background `#FFFFFF`, border `1px solid #E5E7EB`, height `48px`, `rounded-xl`. Focus state transitions to `border-color: #0F3826` with an inner halo tint of `rgba(15, 56, 38, 0.08)`.
+- **Weekly Date Strip**: Horizontal capsule strip of 7 days. Current/active day is highlighted in a vertical pill with `#0F3826` background, `#FFFFFF` typography, and a miniature completion dot below.
